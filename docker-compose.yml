@@ -5,15 +5,20 @@ services:
     build:
       context: ./TodoBackend
     ports:
-      - "5260:80"
+      - "5260:5260"
     volumes:
       - UploadsFolder:/app/UploadedPhotos
+    environment:
+      - ConnectionStrings__DefaultConnection=server=host.docker.internal;port=3306;database=TodoDb;user=root;password=root
+      - AllowedOrigins=http://localhost:4200
 
   frontend:
     build:
       context: ./TodoFrontend
     ports:
       - "4200:4200"
+    environment:
+      - API_URL=http://backend:5260
 
 volumes:
   UploadsFolder:
