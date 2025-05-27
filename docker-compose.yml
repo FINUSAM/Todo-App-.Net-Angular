@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./TodoBackend
+    ports:
+      - "5260:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./TodoBackend/UploadedPhotos:/app/UploadedPhotos # persist uploaded photos
+
+  frontend:
+    build: ./TodoFrontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend

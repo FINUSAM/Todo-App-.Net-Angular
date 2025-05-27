@@ -1,0 +1,72 @@
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+.todo-app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: #3f51b5; /* Indigo */
+}
+
+mat-form-field {
+  margin-bottom: 1rem;
+}
+
+mat-list-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+mat-list-item:last-child {
+  border-bottom: none;
+}
+
+mat-checkbox {
+  margin-right: 16px;
+}
+
+mat-icon-button {
+  margin-left: auto;
+}
+
+span {
+  flex: 1;
+  font-size: 1rem;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.photo-item {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
