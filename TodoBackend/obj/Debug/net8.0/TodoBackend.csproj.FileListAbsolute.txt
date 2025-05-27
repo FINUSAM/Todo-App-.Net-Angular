@@ -109,3 +109,4 @@ C:\Users\fahee\Desktop\Todo Noufal\TodoApp\TodoBackend\obj\Debug\net8.0\refint\T
 C:\Users\fahee\Desktop\Todo Noufal\TodoApp\TodoBackend\obj\Debug\net8.0\TodoBackend.pdb
 C:\Users\fahee\Desktop\Todo Noufal\TodoApp\TodoBackend\obj\Debug\net8.0\TodoBackend.genruntimeconfig.cache
 C:\Users\fahee\Desktop\Todo Noufal\TodoApp\TodoBackend\obj\Debug\net8.0\ref\TodoBackend.dll
+C:\Users\fahee\Desktop\Todo Noufal\TodoApp\TodoBackend\obj\Debug\net8.0\TodoBackend.sourcelink.json
